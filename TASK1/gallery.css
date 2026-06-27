@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+}
+
+.container{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    box-shadow: 3px 3px 10px green;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+img{
+    border: 5px solid black;
+    box-shadow: 3px 3px 5px green;
+    margin: 12px;
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+}
