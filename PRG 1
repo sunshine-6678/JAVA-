@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form>
+    Name: <input type="text"><br><br>
+
+    Email: <input type="email"><br><br>
+
+    Password: <input type="password"><br><br>
+
+    Gender:
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+    <br><br>
+
+    Course:
+    <select>
+        <option>B.Sc Computer Science</option>
+        <option>BCA</option>
+        <option>B.Com</option>
+    </select>
+    <br><br>
+
+    Address:<br>
+    <textarea rows="4" cols="30"></textarea>
+    <br><br>
+
+    <input type="submit" value="Register">
+</form>
+
+</body>
+</html>
