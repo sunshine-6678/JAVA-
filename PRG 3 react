@@ -1,16 +1,13 @@
-Student.js
+Student.jsx
 
-
-import React from "react";
+import "./Student.css";
 
 function Student() {
   return (
-    <div>
+    <div className="student">
       <h2>Student Details</h2>
       <p>Name: Kalpana Devi</p>
-      <p>Age: 21</p>
       <p>Course: MCA</p>
-      <p>College: Meenakshi College</p>
     </div>
   );
 }
@@ -18,19 +15,16 @@ function Student() {
 export default Student;
 
 
-App.js
+Student.css
 
-import React from "react";
-import Student from "./Student";
-
-function App() {
-  return (
-    <div>
-      <Student />
-    </div>
-  );
+.student {
+  border: 2px solid black;
+  padding: 15px;
+  width: 250px;
+  margin: 20px;
+  background-color: lightblue;
 }
 
-export default App;
-
-
+h2 {
+  color: blue;
+}
